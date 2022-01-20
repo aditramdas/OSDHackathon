@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <title>Login</title>
+    <style>
+        body{
+            background-image: url(pexels-gustavo-fring-3985151.jpg);
+            background-repeat: no-repeat;
+            background-size: 1500px 1020px;
+            float:right;
+            
+        }
+        .login-thing {
+            width: 500px;
+            
+            position: sticky right;
+            background-color: rgb(255, 255, 255);
+            justify-content: center;
+            margin: 0px 0px;
+            padding: 10px;
+            position: sticky right;
+            height: 1080px;
+            
+        }
+
+        h1 {
+            font-size: 80px;
+            width: 630px;
+            align-items: center;
+            padding: 10px;
+            align-content: center;
+            text-align: center;
+            margin: 30px auto;
+            justify-content: center;
+            font-family: 'Playfair Display', sans-serif;
+            transform: translate(-80px, 200px);
+        }
+
+        #details {
+            padding: 20px 40px;
+            border-radius: 30px;
+            box-shadow: 3px 3px rgb(139, 139, 139);
+            display: block;
+            margin: 20px auto;
+            transform: translate(-20px, 200px);
+        }
+
+        .submit {
+            display: block;
+            padding: 10px 20px;
+            border-radius: 30px;
+            transform: translate(-20px, 200px);
+            margin: 20px auto;
+            text-align: center;
+            transition: 0.2s all ease-in-out;
+        }
+        .submit:hover{
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="login-thing">
+        <h1>Login</h1>
+        <form action="">
+            <input type="text" name="username" id="details" placeholder="@username">
+            <input type="password" name="password" id="details" placeholder="password">
+            <button class="submit">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
