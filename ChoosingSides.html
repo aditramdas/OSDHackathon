@@ -8,14 +8,27 @@
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
     <style>
-        
+        .logo{
+          display: inline-block;
+          height: 5%;
+          width: 5%;
+          transform: translate(10px , -50px);
+        }
+        .name{
+          display: inline-block;
+          font-size: 30px;
+          font-family: 'Century Gothic';
+          transform: translate(10px , -45px);
+        }
         .who{
+          display: inline-block;
             font-size: 80px;
             width: 630px;
             align-items: center;
             margin:30px auto;
             justify-content: center;
             font-family: 'Playfair Display', sans-serif;
+            transform: translate(270px , 050px);
             
         }
         #button1{
@@ -28,6 +41,8 @@
     </style>
 </head>
 <body>
+  <img src="KnowDoc.png" class='logo' alt="Logo">
+  <h3 class="name">KnowDoc</h3>
 <h1 class="who">WHO ARE YOU?</h1>
 <section class="text-gray-600 body-font">
   <div class="container px-5 py-24 mx-auto">
